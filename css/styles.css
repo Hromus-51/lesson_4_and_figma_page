@@ -1,0 +1,962 @@
+/* Подключение шрифтов через файл CSS */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+/* Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+/* Dosis */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700;800&display=swap');
+/* Prompt */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+/* Barlow Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap'); 
+
+/* Подключение шрифтов через файл CSS (font-face) */
+/* Proxima Nova */
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/SFUIText-Regular.woff2') format("woff2"), url('../fonts/ProximaNova-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/ProximaNova-RegularIt.woff2') format("woff2"), url('../fonts/ProximaNova-RegularIt.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/ProximaNova-Bold.woff2') format("woff2"), url('../fonts/ProximaNova-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/ProximaNova-BoldIt.woff2') format("woff2"), url('../fonts/ProximaNova-BoldIt.woff') format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/ProximaNova-Black.woff2') format("woff2"), url('../fonts/ProximaNova-Black.woff') format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "ProximaNova";
+    src: url('../fonts/ProximaNova-BlackIt.woff') format("woff2"), url('../fonts/ProximaNova-BlackIt.woff') format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+/* Gotham Pro */
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro.woff2') format("woff2"), url('../fonts/GothamPro.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro-Italic.woff2') format("woff2"), url('../fonts/GothamPro-Italic.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro-Bold.woff2') format("woff2"), url('../fonts/GothamPro-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro-BoldItalic.woff2') format("woff2"), url('../fonts/GothamPro-BoldItalic.woff') format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro-Black.woff2') format("woff2"), url('../fonts/GothamPro-Black.woff') format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url('../fonts/GothamPro-BlackItalic.woff2') format("woff2"), url('../fonts/GothamPro-BlackItalic.woff') format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* DIN Pro */
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro.woff2') format("woff2"), url('../fonts/DINPro.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro-Italic.woff2') format("woff2"), url('../fonts/DINPro-Italic.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro-Bold.woff2') format("woff2"), url('../fonts/DINPro-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro-BoldItalic.woff2') format("woff2"), url('../fonts/DINPro-BoldItalic.woff') format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro-Black.woff2') format("woff2"), url('../fonts/DINPro-Black.woff') format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DIN Pro";
+    src: url('../fonts/DINPro-BlackItalic.woff2') format("woff2"), url('../fonts/DINPro-BlackItalic.woff') format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+/* Geometria */
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria-Thin.woff2') format("woff2"), url('../fonts/Geometria-Thin.woff') format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria-ThinItalic.woff2') format("woff2"), url('../fonts/Geometria-ThinItalic.woff') format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria.woff2') format("woff2"), url('../fonts/Geometria.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria-Italic.woff2') format("woff2"), url('../fonts/Geometria-Italic.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria-Bold.woff2') format("woff2"), url('../fonts/Geometria-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geometria";
+    src: url('../fonts/Geometria-BoldItalic.woff2') format("woff2"), url('../fonts/Geometria-BoldItalic.woff') format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Myriad Pro */
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-Regular.woff2') format("woff2"), url('../fonts/MyriadPro-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-It.woff2') format("woff2"), url('../fonts/MyriadPro-It.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-Bold.woff2') format("woff2"), url('../fonts/MyriadPro-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-BoldIt.woff2') format("woff2"), url('../fonts/MyriadPro-BoldIt.woff') format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-Black.woff2') format("woff2"), url('../fonts/MyriadPro-Black.woff') format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro-BlackIt.woff2') format("woff2"), url('../fonts/MyriadPro-BlackIt.woff') format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Контент */
+body {
+    font-size: 18px;
+}
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.signature {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Тест шрифта "Roboto" */
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+.roboto__text_1 {
+    font-size: 20px;
+    color: #800000;
+    font-weight: 900;
+    text-align: center;
+}
+.roboto__text_2 {
+    font-size: 23px;
+    color: #FF0000;
+    font-weight: 700;
+}
+.roboto__text_3 {
+    font-size: 26px;
+    color: #FF6347;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.roboto__text_4 {
+    font-size: 29px;
+    color: #FF8C00;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: lowercase;
+}
+.roboto__text_5 {
+    font-size: 32px;
+    color: 	#FFD700;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px #FFD700;
+}
+.roboto__text_6 {
+    font-size: 35px;
+    color: #9ACD32;
+    text-decoration: underline;
+}
+.roboto__text_7 {
+    font-size: 38px;
+    color: #7FFF00;
+    text-decoration: line-through;
+    text-align: right;
+}
+
+/* Тест шрифта "Merriweather" */
+.merriweather {
+    font-family: "Merriweather", serif;
+}
+.merriweather__text_1 {
+    font-size: 10px;
+    color: #00FA9A;
+}
+.merriweather__text_2 {
+    font-size: 13px;
+    color: #20B2AA;
+    text-transform: uppercase;
+}
+.merriweather__text_3 {
+    font-size: 15px;
+    color: #008B8B;
+    font-style: italic;
+    text-transform: capitalize;
+    text-align: right;
+}
+.merriweather__text_4 {
+    font-size: 18px;
+    color: 	#00CED1;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: overline;
+}
+.merriweather__text_5 {
+    font-size: 21px;
+    color: #1E90FF;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+.merriweather__text_6 {
+    font-size: 24px;
+    color: #000080;
+    font-weight: 900;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* Тест шрифта "Dosis" */
+.dosis {
+    font-family: "Dosis", sans-serif;
+}
+.dosis__text_1 {
+    font-size: 25px;
+    color: #0000CD;
+    font-weight: 700;
+    text-align: right;
+}
+.dosis__text_2 {
+    font-size: 27px;
+    color: #8A2BE2;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 3px 3px 10px #8A2BE2;
+}
+.dosis__text_3 {
+    font-size: 29px;
+    color: #9400D3;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.dosis__text_4 {
+    font-size: 31px;
+    color: 	#8B008B;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+.dosis__text_5 {
+    font-size: 33px;
+    color: #C71585;
+    text-transform: capitalize;
+    line-height: 1.8;
+    text-shadow: 3px 3px 10px #C71585;
+}
+.dosis__text_6 {
+    font-size: 35px;
+    color: #FF69B4;
+    text-decoration: underline;
+    line-height: 2.0;
+}
+.dosis__text_7 {
+    font-size: 37px;
+    color: #A52A2A;
+    text-decoration: overline;
+    line-height: 1.5;
+}
+
+/* Тест шрифта "Prompt" */
+.prompt {
+    font-family: "Prompt", sans-serif;
+}
+.prompt__text_1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #BC8F8F;
+}
+.prompt__text_2 {
+    font-size: 47px;
+    font-weight: 700;
+    color: #E9967A;
+    text-align: center;
+}
+.prompt__text_3 {
+    font-size: 44px;
+    font-weight: 700;
+    font-style: italic;
+    color: #A0522D;
+    text-align: right;
+}
+.prompt__text_4 {
+    font-size: 41px;
+    font-style: italic;
+    color: #8B4513;
+    line-height: 2.5;
+}
+.prompt__text_5 {
+    font-size: 39px;
+    text-decoration: line-through;
+    color: 	#CD853F;
+    line-height: 2;
+}
+.prompt__text_6 {
+    font-size: 36px;
+    text-decoration: underline;
+    color: 	#FFE4C4;
+    letter-spacing: 3px;
+}
+.prompt__text_7 {
+    text-decoration: overline;
+    color: 	#D2B48C;
+    letter-spacing: 2.5px;
+}
+
+/* Тест шрифта "Barlow Condensed" */
+.barlow-condensed {
+    font-family: "Barlow Condensed", sans-serif;
+}
+.barlow-condensed__text_1 {
+    font-size: 40px;
+    color: #6B8E23;
+    font-weight: 700;
+    line-height: 2.5;
+    text-shadow: 5px 5px 15px #6B8E23;
+}
+.barlow-condensed__text_2 {
+    font-size: 43px;
+    color: #556B2F;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-shadow: 10px 10px 15px #556B2F;
+}
+.barlow-condensed__text_3 {
+    font-size: 46px;
+    color: #8FBC8F;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.barlow-condensed__text_4 {
+    font-size: 49px;
+    color: #006400;
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    text-shadow: -10px -10px 15px #006400;
+}
+.barlow-condensed__text_5 {
+    font-size: 52px;
+    color: #228B22;
+    text-transform: uppercase;
+}
+.barlow-condensed__text_6 {
+    font-size: 55px;
+    color: #90EE90;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+.barlow-condensed__text_7 {
+    font-size: 58px;
+    color: 	#2E8B57;
+    text-decoration: underline;
+}
+
+/* Тест шрифта "Cormorant Garamond" */
+.cormorant-garamond {
+    font-family: "Cormorant Garamond", serif;
+}
+.cormorant-garamond__text_1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #AFEEEE;
+    text-shadow: 5px 5px 15px #AFEEEE;
+}
+.cormorant-garamond__text_2 {
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5F9EA0;
+    text-shadow: 10px 10px 20px #5F9EA0;
+}
+.cormorant-garamond__text_3 {
+    font-size: 46px;
+    font-weight: 700;
+    font-style: italic;
+    color: #B0E0E6;
+    letter-spacing: 5px;
+}
+.cormorant-garamond__text_4 {
+    font-size: 49px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #87CEEB;
+    letter-spacing: 6px;
+}
+.cormorant-garamond__text_5 {
+    font-size: 52px;
+    text-decoration: underline;
+    color: #87CEFA;
+    line-height: 1.5;
+}
+.cormorant-garamond__text_6 {
+    font-size: 55px;
+    text-decoration: line-through;
+    color: 	#4682B4;
+    line-height: 2.5;
+}
+.cormorant-garamond__text_7 {
+    font-size: 58px;
+    text-decoration: overline;
+    color: #708090;
+    line-height: 3;
+}
+
+/* Тест шрифта "Zilla Slab" */
+.zilla-slab {
+    font-family: "Zilla Slab", serif;
+}
+.zilla-slab__text_1 {
+    font-size: 20px;
+    color: #B0C4DE;
+    font-weight: 700;
+    line-height: 2;
+}
+.zilla-slab__text_2 {
+    font-size: 25px;
+    color: #6495ED;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+.zilla-slab__text_3 {
+    font-size: 30px;
+    color: #E6E6FA;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.zilla-slab__text_4 {
+    font-size: 35px;
+    color: #191970;
+    text-decoration: line-through;
+}
+.zilla-slab__text_5 {
+    font-size: 40px;
+    color: #6A5ACD;
+    text-decoration: underline;
+}
+.zilla-slab__text_6 {
+    font-size: 45px;
+    color: #483D8B;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 20px #483D8B;
+}
+.zilla-slab__text_7 {
+    font-size: 50px;
+    color: #7B68EE;
+    text-transform: capitalize;
+}
+
+/* Тест шрифта "Amatic SC" */
+.amatic {
+    font-family: "Amatic SC", sans-serif;
+}
+.amatic__text_1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #9370DB;
+}
+.amatic__text_2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 5px 7px 3px #4B0082;
+    color: 	#4B0082;
+}
+.amatic__text_3 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 2;
+    color: #BA55D3;
+}
+.amatic__text_4 {
+    font-size: 36px;
+    text-decoration: underline;
+    line-height: 1.5;
+    color: #DDA0DD;
+}
+.amatic__text_5 {
+    font-size: 38px;
+    text-decoration: line-through;
+    letter-spacing: 4px;
+    color: #EE82EE;
+}
+.amatic__text_6 {
+    font-size: 40px;
+    text-decoration: overline;
+    text-align: center;
+    color: #D8BFD8;
+}
+.amatic__text_7 {
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #DA70D6;
+}
+
+/* Тест шрифта "Chakra Petch" */
+.chakra-petch {
+    font-family: "Chakra Petch", sans-serif;
+}
+.chakra-petch__text {
+    font-size: 30px;
+    color: #DB7093;
+    font-weight: 700;
+    font-style: italic;
+}
+.chakra-petch__text_1 {
+    font-size: 35px;
+    color: #FFC0CB;
+    font-style: italic;
+    line-height: 3;
+}
+.chakra-petch__text_2 {
+    font-size: 40px;
+    color: #FFB6C1;
+    text-transform: uppercase;
+}
+.chakra-petch__text_3 {
+    font-size: 45px;
+    color: #696969;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 15px #696969;
+}
+.chakra-petch__text_4 {
+    font-size: 50px;
+    color: #808080;
+    text-decoration: line-through;
+}
+.chakra-petch__text_5 {
+    font-size: 55px;
+    color: 	#A9A9A9;
+    text-decoration: underline;
+}
+.chakra-petch__text_6 {
+    font-size: 60px;
+    color: #C0C0C0;
+    letter-spacing: 3px;
+}
+.chakra-petch__text_7 {
+    font-size: 65px;
+    color: #D3D3D3;
+    letter-spacing: 5px;
+}
+
+/* Тест шрифта "Space Mono" */
+.space-mono {
+    font-family: "Space Mono", serif;
+}
+.space-mono__text_1 {
+    font-size: 30px;
+    color: #FF0000;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.space-mono__text_2 {
+    font-size: 32px;
+    color: #FA8072;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 7px;
+}
+.space-mono__text_3 {
+    font-size: 34px;
+    color: #FF6347;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.space-mono__text_4 {
+    font-size: 36px;
+    color: 	#FF7F50;
+    text-transform: capitalize;
+    line-height: 2;
+}
+.space-mono__text_5 {
+    font-size: 38px;
+    color: #FF4500;
+    text-decoration: underline;
+}
+.space-mono__text_6 {
+    font-size: 40px;
+    color: #D2691E;
+    text-decoration: line-through;
+}
+.space-mono__text_7 {
+    font-size: 42px;
+    color: #F4A460;
+    text-shadow: 10px 10px 20px #F4A460;;
+}
+
+/* Тест шрифта "Proxima Nova" */
+.proxima-nova {
+    font-family: "ProximaNova", sans-serif;
+}
+.proxima-nova__text_1 {
+    font-size: 20px;
+    color: #FF8C00;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.proxima-nova__text_2 {
+    font-size: 25px;
+    color: #FFA500;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.proxima-nova__text_3 {
+    font-size: 30px;
+    color: #B8860B;
+    font-weight: 900;
+    text-shadow: 10px 10px 10px #B8860B;
+}
+.proxima-nova__text_4 {
+    font-size: 35px;
+    color: #DAA520;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 2;
+}
+.proxima-nova__text_5 {
+    font-size: 40px;
+    color: 	#FFD700;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.proxima-nova__text_6 {
+    font-size: 45px;
+    color: 	#808000;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.proxima-nova__text_7 {
+    font-size: 50px;
+    color: #FFFF00;
+    text-transform: capitalize;
+}
+
+/* Тест шрифта "Gotham Pro" */
+.gotham-pro {
+    font-family: "Gotham Pro", sans-serif;
+}
+.gotham-pro__text_1 {
+    font-size: 25px;
+    color: #9ACD32;
+    text-transform: uppercase;
+}
+.gotham-pro__text_2 {
+    font-size: 30px;
+    color: #ADFF2F;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.gotham-pro__text_3 {
+    font-size: 35px;
+    color: #7FFF00;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.gotham-pro__text_4 {
+    font-size: 40px;
+    color: 	#7CFC00;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.gotham-pro__text_5 {
+    font-size: 45px;
+    color: #008000;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.gotham-pro__text_6 {
+    font-size: 50px;
+    color: 	#00FF00;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+.gotham-pro__text_7 {
+    font-size: 55px;
+    color: #32CD32;
+    text-shadow: 7px 7px 7px #32CD32;
+    letter-spacing: 3px;
+}
+
+/* Тест шрифта "DIN Pro" */
+.din-pro {
+    font-family: "DIN Pro", sans-serif;
+}
+.din-pro__text_1 {
+    font-size: 15px;
+    color: #40E0D0;
+text-decoration: underline;
+}
+.din-pro__text_2 {
+    font-size: 17px;
+    color: #20B2AA;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.din-pro__text_3 {
+    font-size: 19px;
+    color: 	#48D1CC;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.din-pro__text_4 {
+    font-size: 21px;
+    color: #008B8B;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.din-pro__text_5 {
+    font-size: 23px;
+    color: 	#00FFFF;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.din-pro__text_6 {
+    font-size: 25px;
+    color: #00CED1;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.din-pro__text_7 {
+    font-size: 27px;
+    color: 	#00BFFF;
+    text-shadow: 10px 10px 15px #00BFFF;
+    text-transform: uppercase;
+}
+
+/* Тест шрифта "Geometria" */ 
+.geometria {
+    font-family: "Geometria", sans-serif;
+}
+.geometria__text_1 {
+    font-size: 40px;
+    color: #1E90FF;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.geometria__text_2 {
+    font-size: 45px;
+    color: #4169E1;
+    font-weight: 100;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.geometria__text_3 {
+    font-size: 40px;
+    color: 	#000080;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.geometria__text_4 {
+    font-size: 45px;
+    color: #00008B;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+.geometria__text_5 {
+    font-size: 40px;
+    color: #0000CD;
+    text-transform: uppercase;
+    line-height: 2;
+}
+.geometria__text_6 {
+    font-size: 45px;
+    color: 	#0000FF;
+    text-transform: capitalize;
+    line-height: 2.5;
+}
+.geometria__text_7 {
+    font-size: 40px;
+    color: #8A2BE2;
+    text-shadow: 3px 3px 10px #8A2BE2;
+}
+
+/* Тест шрифта "Myriad Pro" */ 
+.myriad-pro {
+    font-family: "Myriad Pro", sans-serif;
+}
+.myriad-pro__text_1 {
+    font-size: 40px;
+    color:	#8A2BE2;
+    text-transform: uppercase;
+}
+.myriad-pro__text_2 {
+    font-size: 42px;
+    font-style: italic;
+    color: #9932CC;
+    text-transform: capitalize;
+}
+.myriad-pro__text_3 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #9400D3;
+    text-decoration: line-through;
+}
+.myriad-pro__text_4 {
+    font-size: 46px;
+    font-weight: 700;
+    font-style: italic;
+    color: 	#800080;
+    text-decoration: underline;
+}
+.myriad-pro__text_5 {
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+    color: 	#8B008B;
+    letter-spacing: 5px;
+}
+.myriad-pro__text_6 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #FF00FF;
+    letter-spacing: 6px;
+}
+.myriad-pro__text_7 {
+    font-size: 52px;
+    text-shadow: 10px 10px 15px #C71585;
+    color: #C71585;
+    line-height: 3;
+}
+
+/* Ссылка на фигму */
+.link {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 4;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
